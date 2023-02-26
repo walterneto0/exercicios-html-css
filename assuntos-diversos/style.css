@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+h1 {
+    color:maroon;
+    background-color:darkgoldenrod;
+    text-align: center;
+}
+h2{
+    color:maroon;
+    background-color:darkgoldenrod;
+}
+body{
+    background-color:bisque;
+}

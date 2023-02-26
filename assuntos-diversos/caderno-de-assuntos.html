@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="arquivos/caderno-icone.png" type="image/x-icon">
+    <title>Caderno de assuntos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Caderno de anotações</h1>
+    <small>Inspecione essa página.</small>
+    <ul>
+        <li><h2>Parágrafos e quebra de linha</h2></li>
+            <p>Você pode escrever um parágrafo de qualquer jeito, basta deixar tudo dentro da TAG &ltp&gt e &lt/p&gt.
+            </p>
+            <p>Para quebrar o texto em um lugar específico como <br> este, basta usar a TAG &lt/br&gt.</p>
+        <li><h2>Imagens simples</h2></li>
+            <p>Você pode adicionar uma imagem que está no seu computador com a TAG <abbr title="Coloque o arquivo nas primeiras aspas. Nas segundas, coloque o texto que será exibido caso a imagem não abra.">&ltimg src="" alt=""&gt</abbr>. Por exemplo:</p>
+            <img  src="arquivos/mar agitado.png" alt="Imagem feita por I.A. de uma mar agitado"> <p><small>Imagem carregada direto do meu PC.</small></p><br>
+            <img src="https://media.discordapp.net/attachments/990816855088328734/1013314928985247815/Brian_O_Conner_alone_Guy_in_the_rain_8k_ultrarealistic_Epic_cin_2fa55f14-77bd-4d88-b0f4-2fe18cac7f9b.png?width=593&height=593" alt="Imagem feita por I.A. de um homem na chuva"> <p><small>Imagem carregada da internet.</small></p>
+        <li><h2>Favicon</h2></li>
+            <p>Para alterar o favicon do seu site, basta usar a Tag <abbr title="Adicione dentro da segunda aspa o seu arquivo.">&ltlink rel="shortcut icon" href="favicon.ico"</abbr>. Olhe o favicon aqui em cima.</p>
+        <li><h2>Imagens que mudam de tamanho automaticamente:</h2></li>
+        <picture>
+            <source media="(max-width: 725px)" srcset="arquivos/foto-p.png" type="image/png">
+            <source media="(max-width:1025px)" srcset="arquivos/foto-m.png" type="image/png">
+            <img src="arquivos/foto-g.png" alt="imagem flexível">
+        </picture>
+        <li><h2>Áudios</h2></li>
+            <p>Para usar áudios, basta usar a TAG <abbr title="Coloque seu arquivo dentro dos primeiros parênteses.">&ltaudio src=""&gt&lt/audio&gt</abbr></p>
+            <audio controls preload="metadata">
+                <source src="arquivos/OCEANS (OCEANOS) no VIOLÃO Fingerstyle.mp3" type="audio/mpeg">
+                <source src="arquivos/PE-018.m4a" type="audio/m4a">
+                <p>Infelizmente não funfou.</p>
+            </audio>
+        <li><h2>Vídeos</h2></li>
+            <p>Você pode usar a TAG <abbr title="Coloque seu arquivo dentro das primeiras aspas">&ltvideo src=""&lt&gt/video&gt</abbr></p>
+            <p>Este vídeo está hospedado no meu servidor:</p>
+            <video width="560" poster="arquivos/poster-vid-cachorro-preto.jpg" controls preload="metadata" loop>
+                <source src="arquivos/vid-cachorro-preto.mp4" type="video/mp4">
+                <source src="arquivos/vid-cachorro-preto-vimeo.mp4" type="video/m4v">
+                <source src="arquivos/vid-cachorro-preto-vimeo.webm" type="video/webn">
+                <source src="arquivos/vid-cachorro-preto-ogv.ogv" type="video/ogg">
+                <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+            </video>
+            <p>Este vídeo está no YouTube:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </ul>
+</body>
+
+</html>

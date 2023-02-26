@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    font: bolder 1.5em 'Arial', 'sans-serif';
+    background-color: rgba(254, 211, 218, 0.629);
+}
+h1 {
+    font: bolder 2.5em 'Times New Romen', serif;
+    color: rgb(198, 0, 0);
+    background-color: #FF9FB2;
+    width: 800px;
+    margin: auto;
+    border-radius: 100px;
+    box-shadow: 15px 15px 40px rgb(198, 0, 0);
+}
+h2 {
+    font: bolder 2em 'Times New Romen', serif;    
+    color: rgb(194, 2, 2);
+}
+img:hover {
+    width: 600px;
+}
+img {
+    width: 400px;
+    margin: auto;
+    box-shadow: 10px 10px 30px;
+}
+div {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 8px 8px 20px;
+    padding: 20px;
+}
+.np {
+    display: inline-block;
+}
+.st {
+    display: inline-block;
+}
+div > p {
+    text-align: justify;
+}
+audio {
+    background-color: red;
+    height: 50px;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 15px;
+}
